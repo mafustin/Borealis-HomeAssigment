@@ -1,0 +1,101 @@
+/*************BASIC SETUP*************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    background-color: #fff;
+    color: #555555;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 62.5%rem;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/**********REUSABLE COMPONENT**********/
+.row {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+/**********BUTTONS************/
+.sign {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    font-weight: 100;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+}
+/*
+.btn-nav:link,
+.btn-nav:visited {
+    float: right;
+    
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #000;
+}*/
+
+.btn-outline:link,
+.btn-outline:visited {
+    border: 1px solid #fff;
+}
+
+.btn-outline-full:link,
+.btn-outline-full:visited {
+    background-color: #bc1b1b;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.laptop {
+    width: 100%;
+    height: auto;
+}
+
+/*****HEADER*********/
+header {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))), url(img/office.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/office.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.hero-text-box p {
+    color: #959595;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: #e0e0e0;
+}
+.long-copy {
+    line-height: 135%;
+}
